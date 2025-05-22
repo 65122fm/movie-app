@@ -1,0 +1,77 @@
+.favourite-lists-page {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+.empty-message {
+  font-style: italic;
+  color: #777;
+}
+
+.list-container {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.list-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.movie-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.movie-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  border-bottom: 1px solid #e0e0e0; 
+  transition: background-color 0.2s ease;
+}
+
+.movie-item:last-child {
+  border-bottom: none;
+}
+
+.movie-item:hover {
+  background-color: #f9f9f9; 
+}
+
+.movie-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+
+.imdb-link-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.imdb-link-btn:hover {
+  background-color: #0056b3;
+}
